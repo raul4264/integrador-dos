@@ -1,0 +1,237 @@
+[
+    {
+        "id": "abrigo-01",
+        "titulo": "Novedad 01",
+        "imagen": "./img/abrigos/food.01.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos",
+            "name":"novedades",
+            "descripcion":"banana-bread-with-butter-and-milk"
+        },
+       
+        "precio": 1000
+    },
+    {
+        "id": "abrigo-02",
+        "titulo": "Novedad  02",
+        "imagen": "./img/abrigos/food.02.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos",
+            "name":"novedades",
+            "descripcion":"barbecue"
+        },
+       
+        "precio": 1000
+    },
+    {
+        "id": "abrigo-03",
+        "titulo": "Novedad  03",
+        "imagen": "./img/abrigos/food.03.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos",
+            "name":"novedades",
+            "descripcion":"barbecued-roasted-duck-ramen"
+        },
+       "precio": 1000
+    },
+    {
+        "id": "abrigo-04",
+        "titulo": "Novedad  04",
+        "imagen": "./img/abrigos/food.04.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos",
+            "name":"novedades",
+            "descripcion":"bread-with-seeds-and-butter "
+        },
+       
+        "precio": 1000
+    },
+    {
+        "id": "abrigo-05",
+        "titulo": "Novedad  05",
+        "imagen": "./img/abrigos/food.05.jpg",
+        "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos",
+            "name":"novedades",
+            "descripcion":"breakfast-sandwich-with-hummus-spread-and-fresh-vegetables"
+        },
+         "precio": 1000
+    },
+    {
+        "id": "camiseta-01",
+        "titulo": "Especial 01",
+        "imagen": "./img/camisetas/food.06.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas",
+            "name":"especialidad",
+            "descripcion":"brunch-skillet-with-eggs-and-tomatoes"
+        },
+        
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-02",
+        "titulo": "Especial 02",
+        "imagen": "./img/camisetas/food.07.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas",
+            "name":"especialidad",
+            "descripcion":"chicken-breast-steaks-with-beetroot"
+
+        },
+     
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-03",
+        "titulo": "Especial 03",
+        "imagen": "./img/camisetas/food.08.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas",
+            "name":"especialidad",
+            "descripcion":"chicken-legs-with-tomatoes-peppers-and-oranges"
+        },
+      
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-04",
+        "titulo": "Especial 04",
+        "imagen": "./img/camisetas/food.09.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas",
+            "name":"especialidad",
+            "descripcion":"eggplant-cannelloni"
+        },
+     
+        
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-05",
+        "titulo": "Especial 05",
+        "imagen": "./img/camisetas/food.010.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas",
+            "name":"especialidad",
+            "descripcion":"french-fries-with-steak-and-beer"
+        },
+
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-06",
+        "titulo": "Especial 06",
+        "imagen": "./img/camisetas/food.011.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas",
+            "name":"especialidad",
+            "descripcion":"fried-rice-with-shrimps"
+        },
+       
+        
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-07",
+        "titulo": "Especial 07",
+        "imagen": "./img/camisetas/food.012.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas",
+            "name":"especialidad",
+            "descripcion":"king-prawns-with-green-lettuce"
+        },
+       
+        "precio": 1000
+    },
+    {
+        "id": "camiseta-08",
+        "titulo": "Especial 08",
+        "imagen": "./img/camisetas/food.013.jpg",
+        "categoria": {
+            "nombre": "Camisetas",
+            "id": "camisetas",
+            "name":"especialidad",
+            "descripcion":"noodles-with-egg-and-vegetables"
+        },
+    
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-01",
+        "titulo": "Gourmet 01",
+        "imagen": "./img/pantalones/food.014.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones",
+            "name":"gourmet",
+            "descripcion":"pizza-with-a-lot-of-cheese"
+        },
+      
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-02",
+        "titulo": "Gourmet 02",
+        "imagen": "./img/pantalones/food.015.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones",
+            "name":"gourmet",
+            "descripcion":"summer-juicy-beef-burger"
+        },
+      
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-03",
+        "titulo": "Gourmet 03",
+        "imagen": "./img/pantalones/food.016.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones",
+            "name":"gourmet",
+            "descripcion":"tacos-with-pulled-pork-fresh-vegetables-and-cream"
+        },
+      
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-04",
+        "titulo": "Gourmet 04",
+        "imagen": "./img/pantalones/food.017.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones",
+            "name":"gourmet",
+            "descripcion":"tiny-pickles-on-top-of-burger"
+        },
+        
+        "precio": 1000
+    },
+    {
+        "id": "pantalon-05",
+        "titulo": "Gourmet 05",
+        "imagen": "./img/pantalones/food.018.jpg",
+        "categoria": {
+            "nombre": "Pantalones",
+            "id": "pantalones",
+            "name":"gourmet",
+            "descripcion":"tortilla-chips-with-salsa"
+        },
+       
+        "precio": 1000
+    }
+]

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h2>Special Food Menu-Empresa de Cáterin</h2>
+        <p><img src="./img/Log-SPG-OK.jpg" alt="" /></p>
+        <br />
+        <p>
+          En "Solo por Gusto" distribuimos en Argentina productos Gourmet
+          Premium. Todo comenzó con querer comer rico, uno de los más grandes
+          placeres de la vida. Un lugar egoísta donde disfrutar con uno mismo.
+          Sabores, aromas y texturas capaces de conectarnos con otras culturas.
+          Descubrir que cada ingrediente tiene su historia y aportar nuestra
+          interpretación de cada receta. Sabíamos que sólo combinando lo mejor
+          de cada país podíamos crear una verdadera experiencia Gourmet en la
+          Argentina. "Ése es nuestro espíritu.”
+        </p>
+        <br />
+
+        <h2><i class="bi bi-telephone"></i> Contactanos: 011 2343 76879</h2>
+      </div>
+      <aside>
+        <header>
+          <button id="abrir" class="abrir-menu">
+            <i class="bi bi-list"></i>
+          </button>
+          <nav class="nav" id="nav">
+            <!-- navbar-nav navbar-expand-md navbar-light -->
+            <button class="cerrar-menu" id="cerrar">
+              <i class="bi bi-x"></i>
+            </button>
+            <ul class="menu nav-list">
+              <li>
+                <a href="#"></a>
+                <button id="todos" class="boton-menu boton-categoria active">
+                  <i class="bi bi-hand-index-thumb-fill"></i> Todos los platos
+                </button>
+              </li>
+              <li>
+                <a href="#"></a>
+                <button id="abrigos" class="boton-menu boton-categoria">
+                  <i class="bi bi-hand-index-thumb"></i>Novedades
+                </button>
+              </li>
+              <li>
+                <a href="#"></a>
+                <button id="camisetas" class="boton-menu boton-categoria">
+                  <i class="bi bi-hand-index-thumb"></i> Especialidades
+                </button>
+              </li>
+              <li>
+                <a href="#"></a>
+                <button id="pantalones" class="boton-menu boton-categoria">
+                  <i class="bi bi-hand-index-thumb"></i> Gourmet
+                </button>
+              </li>
+
+              <li>
+                <a href="#"></a>
+                <a class="boton-menu boton-carrito" href="./carrito.html">
+                  <i class="bi bi-cart-fill"></i> Carrito
+                  <span id="numerito" class="numerito">0</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="nav2">
+          <li>
+            <a
+              href="./contacto.html"
+              id="todos"
+              class="boton-menu boton-categoria nav2"
+            >
+              <i class="bi bi-hand-index-thumb-fill"></i>Contacto
+            </a>
+          </li>
+          <li>
+            <a
+              href="./about.html"
+              id="todos"
+              class="boton-menu boton-categoria nav2"
+            >
+              <i class="bi bi-hand-index-thumb-fill"></i>About Us
+            </a>
+          </li>
+        </div>
+      </aside>
+      <main>
+        <h2 class="titulo-principal" id="titulo-principal">Productos</h2>
+        <div id="contenedor-productos" class="contenedor-productos">
+          <!-- Esto se va a rellenar con JS -->
+        </div>
+      </main>
+      <footer>
+        <p class="texto-footer">
+          © 2023 Raul Novas (Alumno Nucba Camada-3317).
+        </p>
+      </footer>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
